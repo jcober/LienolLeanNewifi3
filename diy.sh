@@ -10,7 +10,7 @@
 sed -i 's/192.168.1.1/192.168.31.200/g' package/base-files/files/bin/config_generate
 wget -O package/network/services/dnsmasq/files/dhcp.conf https://raw.githubusercontent.com/chenxiccc/Customfiles/master/dhcp
 wget -O package/base-files/files/etc/hosts https://raw.githubusercontent.com/chenxiccc/Customfiles/master/hosts
-wget -O package/base-files/files/etc/config/firewall https://raw.githubusercontent.com/chenxiccc/Customfiles/master/firewall
+wget -O package/network/config/firewall/files/firewall.config https://raw.githubusercontent.com/chenxiccc/Customfiles/master/firewall
 #sed -i '1i\127.0.0.1 api.ad.xiaomi.com' package/base-files/files/etc/hosts
 #sed -i '1i\127.0.0.1 sdkconfig.ad.xiaomi.com' package/base-files/files/etc/hosts
 #sed -i '1i\127.0.0.1 ad.mi.com' package/base-files/files/etc/hosts
